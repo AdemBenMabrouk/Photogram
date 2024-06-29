@@ -19,7 +19,7 @@ import { useCreatePost, useUpdatePost } from "@/lib/react-query/queryandmutation
 import { useUserContext } from "@/context/Authcontext"
 import { useToast } from "../ui/use-toast"
 import { useNavigate } from "react-router-dom"
-import { updatePost } from "@/lib/appwrite/api"
+
  
 
 type Postformprops={

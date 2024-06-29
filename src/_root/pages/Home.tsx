@@ -4,7 +4,7 @@ import { useGetRecentPosts } from "@/lib/react-query/queryandmutations"
 import { Models } from "appwrite"
 
 const Home = () => {
-  const {data:posts,isPending:isPostloading,isError:isErrorPosts}=useGetRecentPosts()
+  const {data:posts,isPending:isPostloading}=useGetRecentPosts()
 
   return (
     <div className="flex flex-1">
